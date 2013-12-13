@@ -1,0 +1,21 @@
+Source: libsub-deprecated-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: perl
+Maintainer: Nathaniel Nutter <nnutter@genome.wustl.edu>
+Standards-Version: 3.8.3
+Homepage: http://search.cpan.org/dist/Sub-Deprecated/
+
+Package: libsub-deprecated-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}
+Description: Warn when deprecated subroutines are used
+ Provides a :Deprecated attribute for subroutines that can be used to decorate
+ deprecated subroutines. The decorator produces a warning using the supplied
+ version string and optional message.
+ .
+ Inspired by Sub::Private|Sub::Private which provides a :Private attribute for
+ subroutines.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
