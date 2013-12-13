@@ -1,0 +1,15 @@
+Changes
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+cpanfile
+dist.ini
+lib/Sub/Deprecated.pm
+lib/Test/Sub/Deprecated.pm
+lib/Test/Sub/Deprecated/WithException.pm
+t/args.t
+t/caller.t
+t/context.t
+t/warn.t

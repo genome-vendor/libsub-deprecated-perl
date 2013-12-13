@@ -1,0 +1,22 @@
+---
+abstract: 'Warn when deprecated subroutines are used'
+author:
+  - 'Nathan Nutter <nnutter@genome.wustl.edu>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.006, CPAN::Meta::Converter version 2.133380'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Sub-Deprecated
+requires:
+  Attribute::Handlers: 0
+resources:
+  bugtracker: https://github.com/nnutter/Sub-Deprecated/issues
+  homepage: http://search.cpan.org/dist/Sub-Deprecated/
+  repository: git://github.com/nnutter/Sub-Deprecated.git
+version: 0.003002
